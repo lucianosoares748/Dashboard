@@ -15,7 +15,7 @@ closeBtn.addEventListener("click", () => {
 
 //change theme
 themeToggler.addEventListener("change", () => {
-  document.body.classList.toggler("dark-theme-variables");
+  document.body.classList.toggle(".dark-theme-variables");
 
   themeToggler.querySelector("span:nth-child(1)").classList.toggler("active");
   themeToggler.querySelector("span:nth-child(2)").classList.toggler("active");
